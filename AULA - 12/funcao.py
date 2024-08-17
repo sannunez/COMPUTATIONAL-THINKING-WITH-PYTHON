@@ -1,10 +1,11 @@
-x = float(input('Digite o valor de X: '))
-def func(x):
-    funcao = x**2 -10*x + 28
-    return funcao
+def y(x):
+    if x <= 2:
+        return x
+    elif x <= 3.5:
+        return 2
+    elif x < 5:
+        return 3
+    else:
+        return x**2 - 10*x + 28
 
-print(func)
-
-
-
-# print(f"f({x}) = y, e y = {funcao}")
+print(y(4.355))
