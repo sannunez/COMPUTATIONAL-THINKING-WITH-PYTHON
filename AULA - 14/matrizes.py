@@ -6,6 +6,8 @@ obj = [
 def printMatriz(obj):
     for j in obj:
         for i in j:
-            print (f"{i:.1f}", end= ' ')
+            print (f"{i:.1f}", end= '')
         print()
 # def printMatrizBonitinha(a):
+
+printMatriz(obj)

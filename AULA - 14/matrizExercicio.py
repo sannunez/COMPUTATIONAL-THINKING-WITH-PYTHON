@@ -1,5 +1,5 @@
-# c = int(input("qtdeI?")) 
-# l = int(input("qtdeJ?"))
+c = int(input("qtdeI?")) 
+l = int(input("qtdeJ?"))
 
 def criaMatriz(c, l):
     matriz = []
@@ -9,3 +9,5 @@ def criaMatriz(c, l):
             linha.append(int(input(':')))
         matriz.append(linha)
     print(matriz)
+
+criaMatriz(c, l)
