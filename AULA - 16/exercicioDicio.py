@@ -6,5 +6,5 @@ dados = [
 ]
 
 for i in dados:
-    print(f'{i['dia']}/{i['mes']}/{i['ano']}: Temperatura:{i['temp']}')
+    print(f'{i['dia']}/{i['mes']}/{i['ano']}: Temperatura:{i['temp']}C')
     
