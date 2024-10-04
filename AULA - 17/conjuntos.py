@@ -12,3 +12,10 @@ print(b)
 # c = a - b --> remove os comuns
 # c = a & b --> junta os comuns
 # c = a | b --> junta os dois conjuntos não repete os comuns
+
+n = int(input("Quantos números serão lidos? "))
+tupla = ()
+for i in range(n):
+    x = int(input("Entre com um número: "))
+    tupla = tupla + (x,)
+print(tupla)
